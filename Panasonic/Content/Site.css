@@ -1,12 +1,10 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding: 50px 0 0 0;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -20,5 +18,29 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+
 }
+/*Header section*/
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #a9a9a9;
+    position: absolute;
+    top: 0;
+}
+.navLogo {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.topMenu {
+}
+/*End header section*/
+/*Body*/
+/*end body*/
+/*footer*/
+footer {
+    position: fixed;
+    bottom: 0;
+}
+/*end footer*/
